@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Convert image…
+Exec=/usr/bin/env bash -c '"$HOME/.local/bin/convert-image.sh" "$@"' -- %F
+Icon-Name=convert-image
+Selection=any
+Extensions=jpg;jpeg;png;webp;bmp;tiff;gif;
+Quote=double
+
